@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome to the Dashboard!</h1>
+    <p>Logged in as: {{ username }}</p>
+    <p>Public Repos: {{ public_repos }}</p>
+    <p>Followers: {{ followers }}</p>
+    <p>Following: {{ following }}</p>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
